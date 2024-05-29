@@ -1,0 +1,124 @@
+.navbar-toggler{
+    background-color: orange; 
+}
+.fondo{
+    background-image: url('../img/technology-background-with-geometric-elements-vector.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.fondo::before{
+    background-color: rgba(0, 0, 0, 0.3); 
+    position: absolute;
+    content: ''; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1; 
+}
+
+.fade-in {
+     opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in.active {
+     opacity: 1;
+}
+ .container-title{
+     border-radius: 7px;
+     padding: 7px;
+     margin-bottom: 20px;
+ }
+ .imgs{
+    border-radius: 7px;
+  
+ }
+ .title2 {
+    background: linear-gradient(to right,  #3351a3, #a3bcff,  #3859b4);
+    -webkit-background-clip: text;
+    color: transparent; 
+    background-clip: text; 
+}
+
+.orange-text {
+    color: #f6c70b;
+}
+
+.purple-text {
+    background: linear-gradient(to right,  #896f18,  #ffd755, #896f18);
+    -webkit-background-clip: text; 
+    color: transparent; 
+    background-clip: text; 
+}
+
+.custom-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.custom-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.custom-container .text {
+    padding: 20px;
+}
+
+.parrafo,
+.card-text{
+    color: #96c7ff;
+    text-align: justify;
+}
+/*Estilos CARDS Móviles y TV */
+
+.card-title{
+    color: orange;
+
+}
+.card {
+    overflow: hidden;
+}
+
+.card-img-top {
+    transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}
+.mycard{
+    background: linear-gradient(to right, #2f68ad,#7797ff, #2f68ad);
+}
+.card-title{
+    color: orange;
+}
+/* Footer */
+.footer{
+    height: 60px;
+    background: linear-gradient(to right, #020d39, #818abb, #020d39);
+}
+.text-footer{
+    color:orange;
+    text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.8); 
+}
+.mycard img:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease; 
+}
+.mycard img:hover {
+    transform: rotate(5deg);
+    transition: transform 0.3s ease; 
+}
+.title3{
+    color: #71b4ff;
+    font-weight: bold;
+}
+.text-name{
+    color:orange;
+    text-shadow: 2px 3px 4px rgba(38, 168, 255, 0.8); 
+}

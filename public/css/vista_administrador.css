@@ -1,0 +1,53 @@
+.fondo{
+    background-image: url('../img/geometric.jpg');
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.fondo::before{
+    background-color: rgba(0, 0, 0, 0.3); 
+    position: absolute;
+    content: ''; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1; 
+}
+.text-3d {
+    color: #fff;
+    text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.8); 
+}
+.hover-admin:hover {
+    background-color: rgb(235, 163, 19);
+}
+.hover-new:hover {
+    background-color: rgb(169, 14, 14);
+}
+.offcanvas{
+    background-image: url("../img/abstract-img.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.offcanvas::before{
+    background-color: rgba(0, 0, 0, 0.3); 
+    position: absolute;
+    content: ''; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1; 
+}
+
+.list-group-item {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+.list-group-item:hover {
+    background-color: transparent;
+    color: #007bff;
+}

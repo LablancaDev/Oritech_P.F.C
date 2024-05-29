@@ -1,0 +1,42 @@
+.navbar-toggler{
+    background-color: orange; 
+}
+.fondo{
+    background-image: url(../img/portatil.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.fondo::before{
+    background-color: rgba(0, 0, 0, 0.6); 
+    position: absolute;
+    content: ''; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1; 
+}
+.datos{
+    height: 80vh;
+}
+
+/* Footer */
+.footer-content{
+    z-index: 1;
+}
+.footer{
+    height: 60px;
+    background: linear-gradient(to right, #020d39, #818abb, #020d39);
+}
+.text-footer{
+    color:orange;
+    text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.8);
+}
+.list-unstyled li a{
+    text-decoration: none;
+}
+.text-name{
+    color:orange;
+    text-shadow: 2px 3px 4px rgba(38, 168, 255, 0.8); 
+}

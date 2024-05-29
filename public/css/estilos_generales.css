@@ -1,0 +1,25 @@
+body {
+    padding-top: 64px;
+}
+/* estilos generales del nav */
+.navbar{
+    background: linear-gradient(to right, #020d39, #818abb, #020d39);
+    background-attachment: fixed;
+}
+
+.hover-bg {
+    border-radius: 5px;
+    padding: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+.hover-bg:hover {
+    background-color: rgb(54, 100, 178);
+}
+.title{
+    color: orange;
+}
+.title:hover{
+    color: orange;
+
+}

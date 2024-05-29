@@ -1,0 +1,98 @@
+.fondo{
+    background-image: url('../img/laptop-cam.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.fondo::before{
+    background-color: rgba(0, 0, 0, 0.3); 
+    position: absolute;
+    content: ''; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1; 
+}
+.navbar-toggler{
+    background-color: orange; 
+}
+/* Estilos menú emergente canvas */
+.offcanvas {
+    background-image: url('../img/fondo-gris.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.menu{
+    background-color:rgb(255, 183, 48);
+}
+.btn-custom {
+    background-image: linear-gradient(to right, #a085f3, #7a3bdb);
+    color: white;
+    border-color: transparent;
+}
+
+.btn-custom:hover {
+    background-image: linear-gradient(to right, #6f42c1, #4a148c);
+    color:orange
+}
+.offcanvas-title-drch {
+    background: linear-gradient(to right, #020d39, #5461a7, #b6c8f4);
+    -webkit-background-clip: text;
+    background-clip: text; 
+    color: transparent;
+    margin: auto;
+}
+
+.list-group-item {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.list-group-item:hover {
+    background-color: transparent;
+    color: #007bff;
+}
+.text-3d {
+    text-shadow: 1px 1px 0px #000000, 
+                 1px 1px 1px #000000, 
+                 2px 2px 2px #f2ba10,
+                 2px 2px 2px #f2ba10;
+    font-weight: bold;
+}
+/* zoom cards productos */
+.zoom-effect {
+    transition: transform 0.3s ease-in-out;
+}
+
+.zoom-effect:hover {
+    transform: scale(1.05); 
+}
+
+.text-decoration-none {
+    text-decoration: none ; 
+}
+.ofertas-container{
+    margin-top: 400px;
+}
+
+/* Footer */
+.footer{
+    height: 60px;
+    background: linear-gradient(to right, #020d39, #818abb, #020d39);
+}
+.text-footer{
+    color:orange;
+    text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.8); 
+}
+.list-unstyled li a{
+    text-decoration: none;
+}
+.text-name{
+    color:orange;
+    text-shadow: 2px 3px 4px rgba(38, 168, 255, 0.8); 
+}

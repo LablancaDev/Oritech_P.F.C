@@ -1,0 +1,15 @@
+.navbar-toggler{
+    background-color: orange; 
+}
+.fondo{
+    background-image: url("../img/iphone.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.login {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: rgba(16, 16, 16, 0.474);
+}

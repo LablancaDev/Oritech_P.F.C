@@ -1,0 +1,19 @@
+.navbar-toggler{
+    background-color: orange; 
+}
+.resumen{
+    z-index:100;
+    opacity: 0.8;
+    
+}
+.fondo{
+    background-image: url(../img/e-commerce.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.carrito{
+    opacity: 0.9;
+
+}
+
+

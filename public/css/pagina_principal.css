@@ -1,0 +1,148 @@
+.navbar-toggler{
+    background-color: orange; 
+}
+/* Estilos menú emergente canvas */
+.offcanvas {
+    background: linear-gradient(to right, #c3c3c3, #737373,  #2c2c2c);
+    background-image: url('../img/fondo-gris.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu{
+    background: linear-gradient(to right, rgb(255, 170, 11), rgb(255, 212, 133),  rgb(255, 170, 11));
+}
+
+.btn-custom {
+    background-image: linear-gradient(to right, #a085f3, #7a3bdb);
+    color: white;
+    border-color: transparent;
+}
+
+.btn-custom:hover {
+    background-image: linear-gradient(to right, #6f42c1, #4a148c);
+    color:orange
+}
+
+.menu .button{
+    z-index: 1;
+ }
+
+.offcanvas-title {
+    background: linear-gradient(to right, #020d39, #5461a7, #b6c8f4);
+    -webkit-background-clip: text;
+    background-clip: text; 
+    color: transparent;
+}
+.offcanvas-title-drch {
+    background: linear-gradient(to right, #020d39, #5461a7, #b6c8f4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; 
+    margin: auto;
+}
+
+.list-group-item {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.list-group-item:hover {
+    background-color: transparent;
+    color: #007bff;
+}
+.carousel{
+    background: linear-gradient(to right, #b6c8f4, #4f60c2, #b6c8f4);
+}
+
+.zoom-effect {
+    transition: transform 0.3s ease-in-out;
+}
+
+.zoom-effect:hover {
+    transform: scale(1.05); 
+}
+
+.text-decoration-none {
+    text-decoration: none ; 
+}
+.ofertas-container{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.bg-gray-transparent {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.backImg{
+    background-image: url('../img/backFixedImage.webp');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.backImg::before{
+    background-color: rgba(0, 0, 0, 0.4); 
+    position: absolute;
+    content: ''; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1; 
+}
+
+
+/*Estilos cards ofertas portátiles y móviles */
+.card {
+    overflow: hidden; 
+}
+
+.card-img-top {
+    transition: transform 0.3s ease; 
+}
+
+.card-img-top:hover {
+    transform: scale(1.1); 
+}
+.mycard{
+    background: linear-gradient(to right, #7d67a2, #9381bb, #4b2883);
+}
+.card-title{
+    color: orange;
+}
+
+/* Garantía reacondicionados */
+.garantia{
+    background-image: url('../img/ofertas.webp');
+    height: 200px;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+/* Footer */
+.footer-content{
+    z-index: 1;
+}
+.footer{
+    height: 60px;
+    background: linear-gradient(to right, #020d39, #818abb, #020d39);
+}
+.text-footer{
+    color:orange;
+    text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.8); 
+}
+.list-unstyled li a{
+    text-decoration: none;
+}
+.text-name{
+    color:orange;
+    text-shadow: 2px 3px 4px rgba(38, 168, 255, 0.8); 
+}
+

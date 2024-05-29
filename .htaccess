@@ -1,0 +1,18 @@
+# Evitar el acceso directo a archivos sensibles
+<FilesMatch "(\.(bak|dist|fla|inc|ini|log|psd|sh|sql|swp)|~)$">
+   Order allow,deny
+   Deny from all
+   Satisfy All
+</FilesMatch>
+
+# Prohibir el acceso al archivo config.php
+<Files "config.php">
+    Order allow,deny
+    Deny from all
+</Files>
+
+# Mostrar un mensaje de error personalizado para el acceso prohibido al archivo config.php
+<Files "config.php">
+    ErrorDocument 403 "ACCESS DENIED!!!. You are not allowed to access this file directly."
+</Files>
+

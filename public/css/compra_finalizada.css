@@ -1,0 +1,40 @@
+.navbar-toggler{
+    background-color: orange; 
+}
+.fondo{
+    background-image: url('../img/compraRealizada.png');
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.fondo::before{
+    background-color: rgba(0, 0, 0, 0.3); 
+    position: absolute;
+    content: ''; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1; 
+}
+.container {
+    margin-top: 50px;
+    text-align: center;
+}
+.checkmark {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #7ac29a;
+}
+.checkmark:after {
+    content: '';
+    width: 30px;
+    height: 60px;
+    border: solid #ffffff;
+    border-width: 0 10px 10px 0;
+    transform: rotate(45deg);
+    position: absolute;
+}

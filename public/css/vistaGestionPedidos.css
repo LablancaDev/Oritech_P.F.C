@@ -1,0 +1,136 @@
+.navbar-toggler{
+    background-color: orange; 
+}
+/* estilos interfaz admin */
+.fondo{
+    background-image: url('../img/geometric.jpg');
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.fondo::before{
+    background-color: rgba(0, 0, 0, 0.3); 
+    position: absolute;
+    content: ''; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1; 
+}
+.text-3d {
+    color: #fff;
+    text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.8); 
+}
+.hover-admin:hover {
+    background-color: rgb(235, 163, 19);
+}
+.hover-new:hover {
+    background-color: rgb(169, 14, 14);
+}
+.offcanvas{
+    background-image: url("../img/abstract-img.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.offcanvas::before{
+    background-color: rgba(0, 0, 0, 0.3); 
+    position: absolute;
+    content: ''; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1; 
+}
+
+.list-group-item {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+.list-group-item:hover {
+    background-color: transparent;
+    color: #007bff;
+}
+/* estilos menú */
+ .pedido-container {
+    margin-top:40px;
+    margin-bottom: 20px;
+    
+}
+
+.pedido-header {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.pedido-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.pedido-id,
+.pedido-fecha,
+.pedido-total {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.pedido-id {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.pedido-fecha {
+    font-size: 1.1rem;
+    color: white;
+}
+
+.pedido-total,
+.pedido-estado,
+.pedido-usuario-id {
+    font-size: 1.1rem;
+    color: white; 
+}
+
+.button-enviar {
+    background-color: rgb(18, 159, 177);
+    border-color: #00939d;
+}
+.button-enviar:hover{
+    background-color: #00abab;
+}
+.button-enProceso {
+    background-color: rgb(255, 204, 51);
+    border-color: hsl(43, 100%, 50%);
+    color:white;
+}
+.button-enProceso:hover{
+    background-color: #ffc020;
+    color:white;
+}
+.button-pendiente {
+    background-color: rgb(255, 80, 92);
+    border-color: #bb1b1b;
+}
+.button-pendiente:hover{
+    background-color: #ff2c2c;
+}
+.pedido,
+.title{
+    color: #EDB111;
+}
+.total{
+    color:red;
+}
+.fecha{
+    color:green;
+}

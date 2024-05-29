@@ -1,0 +1,63 @@
+.navbar-toggler{
+    background-color: orange; 
+}
+.fondo{
+    background-image: url(../img/compras.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.fondo::before{
+    background-color: rgba(0, 0, 0, 0.6); 
+    position: absolute;
+    content: ''; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1; 
+}
+.pedido-container {
+    border-radius: 10px;
+    margin-top:40px;
+    margin-bottom: 20px;
+
+}
+
+.pedido-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.pedido-id,
+.pedido-fecha,
+.pedido-total {
+    margin: 0;
+    font-size: 1rem;
+    color: #666;
+}
+
+.pedido-id {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.pedido-fecha {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.pedido-total {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.pedido-button {
+    margin-top: 10px;
+}
+
