@@ -3,9 +3,6 @@
 ## Descripción del Proyecto
 
 Para finalizar mi formación en Desarrollo de Aplicaciones Web, desarrollé una tienda online de productos tecnológicos utilizando HTML, CSS, Bootstrap, JavaScript, PHP y MySQL. Este proyecto de comercio electrónico sigue el patrón MVC y utiliza Programación Orientada a Objetos con PHP para mejorar la organización y reutilización del código.
-
-## Características Principales
-
 Este proyecto me permitió aplicar y consolidar mis conocimientos en desarrollo web, así como adquirir experiencia práctica en la creación de aplicaciones dinámicas y seguras.
 
 ## Tecnologías Utilizadas
@@ -29,20 +26,6 @@ Este proyecto me permitió aplicar y consolidar mis conocimientos en desarrollo 
 
 ### Gestión
 - Manejo de sesiones y archivos JSON
-
-## Habilidades Desarrolladas
-
-- Resolución de problemas
-- Trabajo en equipo
-- Experiencia en trato al cliente
-- Auto-mejora continua
-- Creatividad digital
-- Pasión por la innovación
-- Adaptabilidad tecnológica
-
-## Experiencia Adicional
-
-- Desarrollo de sitios web responsivos utilizando Wordpress, HTML, CSS y JavaScript
 
 ## Conclusión
 
